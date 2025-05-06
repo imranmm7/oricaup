@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Proposal Writing Support",
+    "description": "Expert assistance in crafting competitive research proposals for national and international funding agencies.",
+    "form_id": "Proposal Writing Support"
+  },
+  {
+    "title": "Training & Workshops",
+    "description": "Regular programs on research methodologies, innovation, and intellectual property rights for faculty and students.",
+    "form_id": "Training & Workshops"
+  },
+  {
+    "title": "Data & Resource Access",
+    "description": "Support in accessing research databases, libraries, and funding sources through university subscriptions.",
+    "form_id": "Data & Resource Access"
+  }
+]

@@ -1,0 +1,14 @@
+[
+    {
+      "type": "Industry",
+      "description": "Facilitate knowledge transfer and joint R&D with industries"
+    },
+    {
+      "type": "Government",
+      "description": "Establish links with provincial and federal government."
+    },
+    {
+      "type": "International",
+      "description": "Establish research links with global institutions."
+    }
+]

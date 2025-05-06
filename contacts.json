@@ -1,0 +1,86 @@
+{
+  "team": [
+    {
+      "name": "Prof. Dr. Muhammad Arif",
+      "designation": "Director ORIC",
+      "email": "marifkhan75@aup.edu.pk",
+      "phone": "+92 333 9348849",
+      "image": "contacts/arif.jpg"
+    },
+    {
+      "name": "Dr. Muhammad Imran",
+      "designation": "Add. Director ORIC",
+      "email": "mimran@aup.edu.pk",
+      "phone": "+92 334 8943280",
+      "image": "contacts/imran.jpg"
+    },
+    {
+      "name": "Dr. Mudassar Iqbal",
+      "designation": "Add. Director ORIC",
+      "email": "mudassariqbal@aup.edu.pk",
+      "phone": "+92 334 8882839",
+      "image": "contacts/mudassar.jpg"
+    },
+    {
+      "name": "Dr. Naveedullah",
+      "designation": "Add. Director ORIC",
+      "email": "naveedullah@aup.edu.pk",
+      "phone": "+92 300 5971378",
+      "image": "contacts/naveed.jpg"
+    },
+    {
+      "name": "Dr. Kamran Sohail",
+      "designation": "Add. Director ORIC",
+      "email": "kamran.sohail@aup.edu.pk",
+      "phone": "+92 345 9058932",
+      "image": "contacts/kamran.jpg"
+    },
+    {
+      "name": "Dr. Majid Sohail",
+      "designation": "Add. Director ORIC",
+      "email": "majidsuhail@aup.edu.pk",
+      "phone": "+92 333 9326976",
+      "image": "contacts/majid.jpg"
+    },
+    {
+      "name": "Dr. Abdullah Niazi",
+      "designation": "Add. Director ORIC",
+      "email": "makniazikhan@yahoo.com",
+      "phone": "+92 312 6606680",
+      "image": "contacts/abdullah.jpg"
+    },
+    {
+      "name": "Dr. Ashfaq Khan",
+      "designation": "Add. Director ORIC",
+      "email": "mishfaq@aup.edu.pk",
+      "phone": "+92 333 9167803",
+      "image": "contacts/ashfaq.jpg"
+    },
+    {
+      "name": "Dr. Zahid Hussain",
+      "designation": "Add. Director ORIC",
+      "email": "zhussainws@aup.edu.pk",
+      "phone": "+92 334 9076365",
+      "image": "contacts/zahid.jpg"
+    },
+    {
+      "name": "Miss. Mahrukh Qasim",
+      "designation": "Manager",
+      "email": "mahrukhqasim@aup.edu.pk",
+      "phone": "+92 333 9385920",
+      "image": "contacts/mahrukh.jpg"
+    },
+    {
+      "name": "Mr. Saifullah ",
+      "designation": "Office Assistant",
+      "email": "saifullah22.pk@gmail.com",
+      "phone": "+92 334 9088998",
+      "image": "contacts/saifullah.jpg"
+    }
+  ],
+  "general": {
+    "email": "oric@aup.edu.pk",
+    "phone": "+92 91 9218503",
+    "description": "For general inquiries, comments or feedback, feel free to reach out:"
+  }
+}

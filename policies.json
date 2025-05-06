@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Research Ethics & IRB",
+    "summary": "Comprehensive guidelines ensuring all university research meets national and international ethical standards. Includes IRB review procedures, consent protocols, and compliance monitoring for studies involving human subjects, animals, or environmental impact.",
+    "link": "docs/ethics-policy.pdf"
+  },
+  {
+    "title": "Intellectual Property (IPR) Policy",
+    "summary": "Detailed framework for protecting intellectual property developed at UAP. Covers patent filing processes, royalty distribution (40% to inventors), and commercialization rights for university-funded research outputs.",
+    "link": "docs/ipr-policy.pdf"
+  },
+  {
+    "title": "Technology Transfer Policy",
+    "summary": "Procedures for licensing university-developed technologies to industry partners. Includes startup incubation support, revenue sharing models (50% inventor, 30% department, 20% ORIC), and other success metrics.",
+    "link": "docs/tech-transfer-policy.pdf"
+  }
+]

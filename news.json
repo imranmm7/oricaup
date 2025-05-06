@@ -1,0 +1,30 @@
+[
+  {
+    "title": "International Research Symposium 2024",
+    "date": "2024-06-15",
+    "summary": "Join us for the annual showcase of groundbreaking agricultural research from UAP faculty and international partners.",
+    "image": "news/test.jpg",
+    "link": "#"
+  },
+  {
+    "title": "UAP Team Wins HEC Research Grant",
+    "date": "2024-05-20",
+    "summary": "Dr. Khan's team secured PKR 12M for sustainable irrigation technology development.",
+    "image": "news/grant-win.png",
+    "link": "#"
+  },
+  {
+    "title": "New Patent Filed for Bio-Fertilizer",
+    "date": "2024-04-10",
+    "summary": "ORIC-UAP files national patent for innovative organic fertilizer formulation.",
+    "image": "",
+    "link": "#"
+  },
+  {
+    "title": "New Patent Filed for Bio-Fertilizer",
+    "date": "2024-04-10",
+    "summary": "ORIC-UAP files national patent for innovative organic fertilizer formulation.",
+    "image": "news/patent.png",
+    "link": "#"
+  }
+]
