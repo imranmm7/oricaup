@@ -1,0 +1,889 @@
+/* Media Section Styles */
+#media {
+    padding: 10px;
+}
+
+.media-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tab-button {
+    padding: 12px 24px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.tab-button:hover {
+    color: #008080;
+}
+
+.tab-button.active {
+    color: #008080;
+    border-bottom-color: #008080;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    aspect-ratio: 4/3;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Downloads Grid */
+.downloads-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.download-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+.download-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,128,128,0.2);
+}
+
+.download-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    background: #e6f7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #008080;
+    font-size: 1.5rem;
+}
+
+.download-info h4 {
+    margin: 0 0 5px;
+    color: #004d66;
+}
+
+.download-info p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.download-link {
+    margin-left: auto;
+    background: #008080;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.download-link:hover {
+    background: #006666;
+}
+
+/* Calls & News Styles */
+.calls-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.call-item {
+    background: white;
+    border-left: 4px solid #008080;
+    padding: 15px 20px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.call-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0,128,128,0.1);
+}
+
+.call-date {
+    color: #008080;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.call-title {
+    color: #004d66;
+    font-size: 1.1rem;
+    margin: 0 0 10px;
+}
+
+.call-description {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.call-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #008080;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.call-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Policy Grid (in Research Section) */
+/* Horizontal Policy Cards - Compact Version */
+.policy-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.policy-card {
+    display: grid;
+    grid-template-columns: 150px 1fr 100px; /* Title | Description | Button */
+    align-items: center;
+    background: #fff;
+    border-left: 4px solid #008080;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    min-height: 100px;
+}
+
+.policy-card:hover {
+    background: #f0f9ff;
+    transform: translateX(3px);
+    box-shadow: 0 4px 8px rgba(0, 128, 128, 0.2);
+}
+
+.policy-card h4 {
+    color: #004d66;
+    padding-right: 15px;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.policy-content {
+    padding: 0 10px;
+    border-left: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+}
+
+.policy-content p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.download-btn {
+    background: #008080;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s;
+    display: block;
+    margin-left: 10px;
+}
+
+.download-btn:hover {
+    background: #006666;
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .policy-card {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .policy-content {
+        border-left: none;
+        border-right: none;
+        padding: 10px 0;
+    }
+
+    .download-btn {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100px;
+    }
+}
+
+
+
+/* collaborations to load */
+.collab-card {
+    display: grid;
+    grid-template-columns: 150px 1fr; /* Only 2 columns now */
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    border-left: 4px solid #008080;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.collab-card:hover {
+    background: #f0f9ff;
+    transform: translateX(5px);
+}
+
+.collab-content {
+    padding-left: 15px;
+    border-left: 1px dashed #ccc;
+}
+/* Collaborations Title - Match Policy Grid */
+.collab-card h4 {
+    font-size: 1.1rem;        /* Same as policy titles */
+    font-weight: 600;         /* Semi-bold */
+    color: #004d66;           /* Dark teal */
+    font-family: 'Poppins', sans-serif; /* Your font */
+    margin: 0;
+    padding-right: 15px;
+    letter-spacing: 0.5px;    /* Optional: if policy titles have this */
+}
+
+
+
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.service-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 77, 102, 0.1);
+    border-top: 4px solid #008080;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 128, 128, 0.2);
+}
+
+.service-card h4 {
+    color: #004d66;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.service-card small {
+    color: #666;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
+/* Unified Form Styling */
+#service-request {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.service-form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh; /* 90% of viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0 5px 20px rgba(0, 77, 102, 0.2);
+    position: relative; /* For absolute positioning of close button if needed */}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #004d66;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    font-family: 'Poppins', sans-serif;
+}
+
+.submit-btn {
+    background: #008080;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.submit-btn:hover {
+    background: #006666;
+}
+.close-btn {
+    background: #008080;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.close-btn:hover {
+    background: #006666;
+}
+/* Service Buttons (updated) */
+.service-btn {
+    background: #008080;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.service-btn:hover {
+    background: #006666;
+}
+
+
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .collab-card {
+        grid-template-columns: 1fr;
+    }
+    .collab-content {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+/*contacts grid*/
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+    background-color: #e6f7ff;
+    box-shadow: 0 6px 18px rgba(0, 128, 128, 0.3);
+}
+
+.contact-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 128, 128, 0.4);
+}
+
+.contact-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #004d66;
+    transition: color 0.3s;
+}
+
+.contact-card p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.contact-card a {
+    color: #006699;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+    color: #003355;
+}
+
+.oric-contact {
+    margin-top: 30px;
+    text-align: center;
+    background: #f0f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.oric-contact h3 {
+    color: #004d66;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.oric-contact a {
+    color: #006699;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.oric-contact a:hover {
+    text-decoration: underline;
+    color: #003355;
+}
+
+
+
+/* News Section */ /* News Slider */
+.news-slider-container {
+    position: relative;
+    width: 100%;
+    height: 450px; /* Fixed height for consistency */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.news-slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 77, 102, 0.15);
+}
+
+.news-slide {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0; /* Remove any bottom padding */
+
+}
+
+.news-slide-image {
+
+    height: 450px;
+    background: #f0f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.news-slide-image:hover {
+    transform: scale(1.2);
+    animation: zoomOut 3s linear infinite;
+}
+
+/* Define zoom-out animation */
+@keyframes zoomOut {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.9); /* Adjust scale as needed */
+    }
+}
+
+.news-slide-image img {
+    flex: 0 0 100%; /* Ensures each image takes full width */
+    width: 100%; /* Ensures image covers full slider width */
+    height: 100%; /* Ensures image covers full slider height */
+    object-fit: contain; /* Keeps aspect ratio while fitting inside */
+}
+
+.news-slide-content {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.news-slide-date {
+    color: #008080;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+/* Adjust content padding if needed */
+.news-slide-content {
+    padding: 20px;
+}
+
+
+.news-slide-title {
+    color: #004d66;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.news-slide-summary {
+    line-height: 1.6;
+    margin-bottom: 5px;
+    padding-bottom: 0; /* Ensure no extra padding */
+}
+
+/* Navigation Buttons */
+.news-prev, .news-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 128, 128, 0.7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.news-prev {
+    left: 15px;
+}
+
+.news-next {
+    right: 15px;
+}
+
+.news-prev:hover, .news-next:hover {
+    background: #008080;
+}
+
+/* Dots Navigation */
+.news-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.news-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.news-dot.active {
+    background: #008080;
+}
+
+/* No Image Fallback */
+.no-image {
+    background: #e6f7ff;
+    color: #004d66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background: #008080;  /* solid teal color */
+    color: white;
+    text-align: center;
+    padding: 10px 20px; /* Reduced padding */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px; /* Set fixed height to match logos */
+
+}
+
+header img {
+    height: 120px;
+    margin: 0 10px; /* Reduced margin */
+    mix-blend-mode: multiply;
+}
+/* Adjust text sizing */
+header div span:first-child {
+    font-size: 1.4rem; /* Slightly reduced */
+    line-height: 1.2;
+}
+
+header div span:last-child {
+    font-size: 1.1rem; /* Slightly reduced */
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    header img {
+        height: 80px;
+        margin: 5px 0;
+    }
+
+    header div span:first-child {
+        font-size: 1.2rem;
+    }
+
+    header div span:last-child {
+        font-size: 1rem;
+    }
+}
+
+nav {
+    background: #004d66;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    position: relative;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    background: #005580;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul ul li {
+    display: block;
+    padding: 5px 0;
+}
+nav ul ul li a {
+    font-size: 16px;
+}
+section {
+    padding: 10px;
+    background: white;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #003366;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+.hidden {
+    display: none !important;
+}
+
+
+
+
+/* About ORIC Section Styling */
+
+
+#about,#introduction-text,#vision-text,#mission-text {
+    text-align: justify; /* Adjust text alignment */
+    font-size: 16px;  /* Adjust font size */
+    line-height: 1.6; /* Improve readability */
+    padding: 10px;  /* Add spacing */
+}
+#organogram-img {
+    max-width: 80%;  /* Ensures it fits within the page */
+    height: auto;     /* Maintains aspect ratio */
+    display: block;   /* Removes extra space */
+    margin: 10px auto; /* Centers the image */
+}
+
+.funding-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.funding-title {
+    text-align: center;
+    color: #2b3e50;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.funding-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.funding-link {
+    display: block;
+    background: white;
+    padding: 1rem;
+    border-left: 5px solid #005a8d;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #2b3e50;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.funding-link:hover {
+    background: #005a8d;
+    color: white;
+    transform: translateY(-2px);
+}
+
+html {
+    scroll-padding-top: 40px; /* Height of your fixed header + some padding */
+}

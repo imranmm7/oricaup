@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}"> <!-- For FormSubmit -->
+    <title>ORIC - The University of Agriculture, Peshawar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <img src="logos/oriclogo.jpg" alt="ORIC Logo">
+    <div>
+        <span style="font-size: 1.7rem;">
+        Office of Research, Innovation & Commercialization (ORIC)
+    </span>
+        <br><br>
+        <span style="font-size: 1.4rem;">
+        The University of Agriculture, Peshawar
+    </span>
+    </div>
+
+    <img src="logos/uaplogo.png" alt="UAP Logo">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li>
+            <a href="#about">About ORIC</a>
+            <ul>
+                <li><a href="#intro">Overview</a></li>
+                <li><a href="#mission-text">Mission</a></li>
+                <li><a href="#vision-text">Vision</a></li>
+                <li><a href="#organogram-img">Organogram</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#research">Research Support</a>
+            <ul>
+                <li><a href="#funding">Funding Opportunities</a></li>
+                <li><a href="#policies">Research Policies & Guidelines</a></li>
+                <li><a href="#collaborations">Collaborations</a></li>
+            </ul>
+        </li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Welcome to ORIC: From Vision to Reality</h2>
+    <div class="news-slider-container">
+        <div class="news-slider" id="news-slider">
+            <!-- News slides load here -->
+        </div>
+        <button class="news-prev" aria-label="Previous news">&#10094;</button>
+        <button class="news-next" aria-label="Next news">&#10095;</button>
+    </div>
+    <div class="news-dots" id="news-dots">
+        <!-- Navigation dots load here -->
+    </div>
+</section>
+
+<section id="about">
+    <h2>About ORIC</h2>
+    <p class="about-intro" id="about-intro-text"></p> <!-- New introductory line -->
+
+    <h3 id="intro">ORIC Overview</h3>
+    <p id="introduction-text">Loading...</p>
+
+    <h3>Mission</h3>
+    <p id="mission-text">Loading...</p>
+
+    <h3>Vision</h3>
+    <p id="vision-text">Loading...</p>
+
+    <h3>Organogram</h3>
+    <img id="organogram-img" src="organogram.png" alt="Organogram" style="width: 80%; max-width: 700px; height: auto;">
+
+</section>
+
+
+<section id="research">
+    <h2>Research Support</h2>
+    <p>ORIC-UAP acts as a bridge between researchers, funding agencies, and regulatory bodies, streamlining the research process and ensuring compliance with ethical and regulatory guidelines. </p>
+    <h3 id="funding">Funding Opportunities</h3>
+    <p>National and international research grants available for faculty and students.</p>
+
+    <div id="funding-grid" class="funding-grid">
+        <!-- Links will be inserted here -->
+    </div>
+
+    <h3 id="policies">Research Policies & Guidelines</h3>
+    <p>ORIC-UAP ensures compliance with ethical and regulatory standards per the <a href="Five Years Strategic Plan Final 21.6.2024.docx" download>Strategic Plan (2024-2029)</a>.</p>
+
+    <div id="policy-grid" class="policy-grid">
+        <!-- Policies loaded dynamically via JSON -->
+    </div>
+
+    <h3 id="collaborations">Collaborations</h3>
+    <p>ORIC-UAP bridges academia with industry and government partners to drive impactful research.</p>
+    <div id="collab-grid" class="collab-grid">
+        <!-- Content loads dynamically here -->
+    </div>
+
+</section>
+
+
+<section id="services">
+    <h2>ORIC Services</h2>
+    <div id="services-grid" class="services-grid">
+        <!-- Dynamic content loads here -->
+    </div>
+</section>
+
+
+<!-- Change this section -->
+<section id="media">
+    <h2>Media</h2>
+
+    <div class="media-tabs">
+        <button class="tab-button active" data-tab="gallery">Gallery</button>
+        <button class="tab-button" data-tab="downloads">Downloads</button>
+        <button class="tab-button" data-tab="calls-news">Calls & News</button>
+    </div>
+
+    <div id="gallery" class="tab-content active">
+        <div class="gallery-grid">
+            <!-- Gallery images will be loaded here -->
+        </div>
+    </div>
+
+    <div id="downloads" class="tab-content">
+        <div class="downloads-grid">
+            <!-- Download items will be loaded here -->
+        </div>
+    </div>
+
+    <div id="calls-news" class="tab-content">
+        <div class="calls-list">
+            <!-- Calls & News items will load here -->
+        </div>
+    </div>
+</section>
+
+
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div id="contact-grid" class="contact-grid">
+
+    </div>
+
+    <div class="oric-contact">
+        <!-- General contact loaded here -->
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 ORIC - University of Agriculture Peshawar</p>
+    <p class="developer-credit">Website developed by Dr. Muhammad Imran (ICS/IT)</p></footer>
+<script src="script.js"></script>
+
+
+
+
+
+
+<section id="service-request" class="hidden">
+    <div class="service-form-container">
+        <h3>ORIC Service Request</h3>
+        <form id="unified-service-form" action="https://formsubmit.co/ajax/mimran@aup.edu.pk" method="POST">
+
+            <!-- FormSubmit Controls -->
+            <input type="hidden" name="_template" value="basic">
+            <input type="hidden" name="_subject" value="New ORIC Service Request">
+            <input type="hidden" name="_next" value="thank-you.html"> <!-- UPDATE THIS -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none">
+
+            <!-- Form Fields -->
+            <div class="form-group">
+                <label for="service-type">Service Needed</label>
+                <select id="service-type" name="Service Type" required>
+                    <option value="" disabled selected>Select a service...</option>
+                    <option value="Proposal Writing Support">Proposal Writing Support</option>
+                    <option value="Training & Workshops">Training & Workshops</option>
+                    <option value="Data & Resource Access">Data & Resource Access</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email Address" required> <!-- Added name attribute -->
+            </div>
+
+            <div class="form-group">
+                <label for="details">Request Details</label>
+                <textarea id="details" name="Request Details" rows="4" required class="scrollable-textarea"></textarea>
+            </div>
+
+            <div class="form-button-group">
+                <button type="submit" class="submit-btn">Submit Request</button>
+                <button type="button" class="close-btn">Close Form</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
