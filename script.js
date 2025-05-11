@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
 let currentNewsIndex = 0;
 let newsInterval;
 
-fetch('news.json')
+fetch('slider-grid-imp.json')
     .then(response => response.json())
     .then(data => {
         const slider = document.getElementById('news-slider');

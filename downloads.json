@@ -1,26 +1,32 @@
 [
   {
-    "title": "Research Policy Handbook",
-    "description": "Complete guide to research policies",
+    "title": "Conflict of Interest Policy 2025",
+    "description": "Conflict of Interest policy latest version",
     "type": "pdf",
-    "file": "downloads/policy-handbook.pdf"
+    "file": "downloads/Conflict of interest policy UAP.pdf"
   },
   {
-    "title": "Research Policy Handbook",
-    "description": "Complete guide to research policies",
+    "title": "ORIC Policy",
+    "description": "The Higher Education Commission Policy on Office of Research, Innovation & Commercialization",
     "type": "pdf",
-    "file": "downloads/policy-handbook.pdf"
+    "file": "downloads/ORICs Policy 2021.pdf"
   },
   {
-    "title": "Research Policy Handbook",
-    "description": "Complete guide to research policies",
+    "title": "Consultancy Policy",
+    "description": "Consultancy Policy 2024",
     "type": "pdf",
-    "file": "downloads/policy-handbook.pdf"
+    "file": "downloads/Consultancy policy of ORIC 4-11-2024.pdf"
   },
   {
-    "title": "Funding Application Form",
-    "description": "Template for funding applications",
-    "type": "word",
-    "file": "downloads/funding-form.docx"
+    "title": "Research Ethics",
+    "description": "Research Ethics Policy and Guidelines",
+    "type": "pdf",
+    "file": "downloads/Research Ethics _Policy_UAP.pdf"
+  },
+  {
+    "title": "ORIC Score Card",
+    "description": "ORIC KPIs and Their Score",
+    "type": "Excel",
+    "file": "downloads/ORIC Score Card_Final.xlsx"
   }
 ]
